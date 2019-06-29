@@ -4,8 +4,9 @@ Data analysis of a reverse cationic flotation process
 
 Explanation of data columns:
 
-date
-% Iron Feed:			% of Iron that comes from the iron ore that is being fed into the flotation cells
+*date*
+*% Iron Feed*
+    % of Iron that comes from the iron ore that is being fed into the flotation cells \n
 % Silica Feed:			% of silica (impurity) that comes from the iron ore that is being fed into the flotation cells
 Starch Flow:			Starch (reagent) Flow measured in m3/h
 Amina Flow:			Amina (reagent) Flow measured in m3/h
