@@ -1,6 +1,22 @@
 # pred_Float
 Data analysis of a reverse cationic flotation process
 
+# Predicting the effectiveness of a Froth floating process
+
+**June 2019**
+
+**Project Description:**
+
+We will use this dataset to analyse and predict a (reverse cationic) Froth floating process having the two aims:
+* What is the best predictor for the iron concentration of the product?
+* Can the data set be used to predict the impurity of the product (by silicate concentration)?
+
+**Data Description:** 
+
+This notebook deals with the analysis of a reverse cationic flotation process of a real production environment. The data (including its documentation) is accessible through kaggle: https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process
+
+---
+
 
 ## Explanation of data columns:
 
