@@ -5,6 +5,8 @@ Data analysis of a reverse cationic flotation process
 
 **June 2019**
 
+## Introduction
+
 **Project Description:**
 
 We will use this dataset to analyse and predict a (reverse cationic) Froth floating process having the two aims:
@@ -15,8 +17,20 @@ We will use this dataset to analyse and predict a (reverse cationic) Froth float
 
 This notebook deals with the analysis of a reverse cationic flotation process of a real production environment. The data (including its documentation) is accessible through kaggle: https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process
 
----
+**The Froth flotation process:**
 
+The froth floatation is used to seperate the iron contents in the ore from other contaminations. The whole process usually contains for steps:
+
+- Contioning of the ore feed pulp (mixture of ore and water) and other reagents
+- Separation of hydrophobic and hydrophilic materials: binding particles attach to the bubbles
+- The bubbles transport the particles upwards until they float on the surface (froth)
+- Collection of the froth by mechanical separation (e.g. by an impeller)
+
+The pulp is added to the cell and flows to the bottom where it is mixed with an air or nitrogen flow. Both are swirled e.g. by an impeller to create bubbles to which the particles can bind. The bubbles then transport the particles upwards. By this process, the particles in the froth can be separated from the pulp.
+
+## Approach
+
+---
 
 ## Explanation of data columns:
 
