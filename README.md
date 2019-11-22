@@ -1,6 +1,7 @@
 # Predicting the effectiveness of a Froth floating process
 
-Data analysis of a reverse cationic flotation process
+Data analysis of a reverse cationic flotation process.
+The implementation can be found here: https://github.com/ca-schumacher/pred_Float/blob/master/data_analysis.ipynb
 
 **June 2019**
 
@@ -30,6 +31,10 @@ The pulp is added to the cell and flows to the bottom where it is mixed with an 
 ## Approach
 
 After cleaning the dataset, I will train a random forest model. This kind of model often does a very good job for this type of problem (all expected data points lie within training set, no extrapolation). Further, it allows to analyze feature importance or interpretation of a single tree, if needed.
+
+## Modelling
+
+Open the Notebook (https://github.com/ca-schumacher/pred_Float/blob/master/data_analysis.ipynb) to see the data analysis, modeling and predicted results.
 
 ## Results and Conclusions
 
