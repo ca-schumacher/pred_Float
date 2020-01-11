@@ -9,7 +9,7 @@ The implementation can be found here: https://github.com/ca-schumacher/pred_Floa
 
 **Project Description:**
 
-We will use this dataset to analyse and predict a (reverse cationic) Froth floating process having the two aims:
+I used this dataset to analyse and predict a (reverse cationic) Froth floating process having the two aims:
 * What is the best predictor for the iron concentration of the product?
 * Can the data set be used to predict the impurity of the product (by silicate concentration)?
 
@@ -30,7 +30,7 @@ The pulp is added to the cell and flows to the bottom where it is mixed with an 
 
 ## Approach
 
-After cleaning the dataset, I will train a random forest model. This kind of model often does a very good job for this type of problem (all expected data points lie within training set, no extrapolation). Further, it allows to analyze feature importance or interpretation of a single tree, if needed.
+After cleaning the dataset, I trained a random forest model. This kind of model often does a very good job for this type of problem (all expected data points lie within training set, no extrapolation). Further, it allowed to analyze feature importance or interpretation of a single tree, if needed.
 
 ## Modelling
 
@@ -38,7 +38,7 @@ Open the Notebook (https://github.com/ca-schumacher/pred_Float/blob/master/data_
 
 ## Results and Conclusions
 
-The trained model trains well (R2: 0.995) and does well to predict the testset data (R2: 0.965). A little overfitting is found, as seen by the discrepancy between train and test set. For our purpose here, this is of no harm and can be further improved, e.g. by cross validation.
+The model trains well (R2: 0.995) and does well to predict the test dataset (R2: 0.965). A little overfitting is found, as seen by the discrepancy between train and test set. For our purpose here, this is of no harm and can be further improved, e.g. by cross validation.
 
 The most important features (or process parameters) for predicting the impurity of the floatation process were (in order of their importance): Ore Pulp pH level, the Iron feed, the Silica feed and the Amina Flow. 
 
